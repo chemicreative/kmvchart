@@ -1,0 +1,447 @@
+<!doctype html>
+<html data-n-head-ssr>
+  <head>
+    <title>kmvchart-project</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content=""><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="https://chemicreative.github.io/kmvchart/e49a771.js" as="script"><link rel="preload" href="https://chemicreative.github.io/kmvchart/7c2fac0.js" as="script"><link rel="preload" href="https://chemicreative.github.io/kmvchart/0751675.js" as="script"><link rel="preload" href="https://chemicreative.github.io/kmvchart/5a0331a.js" as="script"><style data-vue-ssr-id="7e56e4e3:0 56b15182:0 2065e928:0 2065e928:1 8f3cf878:0 ae364942:0 bbf31202:0 b5e05df8:0">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}html{font-family:"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:16px;word-spacing:1px;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;box-sizing:border-box}*,:after,:before{box-sizing:border-box;margin:0}.button--green{display:inline-block;border-radius:4px;border:1px solid #3b8070;color:#3b8070;text-decoration:none;padding:10px 30px}.button--green:hover{color:#fff;background-color:#3b8070}.button--grey{display:inline-block;border-radius:4px;border:1px solid #35495e;color:#35495e;text-decoration:none;padding:10px 30px;margin-left:15px}.button--grey:hover{color:#fff;background-color:#35495e}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}.container{background:url(https://chemicreative.github.io/kmvchart/7387821b5c3ff2dc79e759cf536b72b1.svg) repeat;background-size:5px;font-family:"Noto Sans KR",sans-serif;display:flex;flex-direction:column}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}.frame-header{color:#e5e5f3;background:#000}.frame-header>.center-wrap{width:100%;height:50px;display:flex;align-items:center;justify-content:center}.frame-header>.center-wrap>.title-wrap>.logo{width:150px;height:50px}.frame-header>.center-wrap>.title-wrap>.logo>path{fill:#ed008c}.frame-header>.center-wrap>.category-list{display:flex;font-size:18px}.frame-header>.center-wrap>.category-list>.category-item{margin-left:50px;width:150px}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}.frame-body-daylyhot100{padding:20px 0;background:#01001b;color:#e5e5f3;font-family:"Noto Sans KR",sans-serif}.frame-body-daylyhot100>.main-title-wrap{margin-top:-30px;display:flex}.frame-body-daylyhot100>.main-title-wrap>img{margin-left:auto;margin-right:auto}.frame-body-daylyhot100>.date{margin-top:-20px;text-align:center;line-height:30px;font-size:16px;color:#04d7f3}.frame-body-daylyhot100>.new-video-wrap{text-align:center}.frame-body-daylyhot100>.video-list{margin-top:20px;display:flex;flex-direction:column;align-items:center}.frame-body-daylyhot100>.video-list>.video-item{cursor:pointer;border-bottom:1px solid #030064}.frame-body-daylyhot100>.video-list>.video-item:first-child{border-top:1px solid #030064}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}.wrap-video-item{width:700px;height:60px;display:flex;align-items:center}.wrap-video-item:hover{background:#030064}.wrap-video-item>.rank-wrap{width:60px;height:60px;display:flex;flex-direction:column;justify-content:center}.wrap-video-item>.rank-wrap>.rank{font-family:"Bebas Neue",cursive;text-align:center;line-height:16px;font-size:16px}.wrap-video-item>.rank-wrap>.arrow{align-self:center;width:15px;height:15px}.wrap-video-item>.rank-wrap>.arrow>.svg{width:15px;height:15px;fill:#04d7f3}.wrap-video-item>.title-wrap{display:flex;flex-direction:column;flex:1}.wrap-video-item>.title-wrap>.song{font-size:14px;font-weight:400}.wrap-video-item>.title-wrap>.artist{color:#b3b2da;font-size:12px}.wrap-video-item>.number-wrap{display:flex;font-size:14px;color:#ed008c}.wrap-video-item>.number-wrap>.increasedViewCount{width:100px}.wrap-video-item>.button-item{width:60px;height:60px;padding:20px;fill:#b3b2da}.wrap-video-item>.button-item:hover{fill:#04d7f3}.wrap-video-item>.img-wrap{display:flex;flex-direction:column}.wrap-video-item>.img-wrap>img{margin-right:20px;width:40px;height:40px;opacity:1}@-webkit-keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes appear{0%{opacity:0}to{opacity:1}}.frame-footer{background:#000}.frame-footer .section-list{margin-top:50px;display:flex;justify-content:center}.frame-footer .section-list .section-item{width:200px;height:200px;border:1px solid #ff0}</style>
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div><div class="container"><div class="frame-header"><div class="center-wrap"><div class="title-wrap"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 50" xml:space="preserve" class="logo" style="enable-background:new 0 0 250 50"><path d="M39.2,37.6c0.6,0.7,0.9,1,1.5,1.7c-4.5,0-6.7,0-11.2,0c-3.3-4-4.8-6-7.8-9.9c-1.4,4-2.2,6-3.6,9.9
+	c-4,0-6,0-10,0c3.9-9.9,7.8-19.7,11.6-29.6c3.6,0,5.4,0,9,0c-1.4,4-2.2,6-3.6,9.9c4.7-3.3,9.3-6.6,13.9-9.9c4,0,6.1,0,10.1,0
+	c-6.6,5-13.4,9.8-20.2,14.6c1.8,2.5,2.7,3.8,4.7,6.3c0.9,1.2,1.8,2.4,2.8,3.5C37.3,35.3,38.2,36.4,39.2,37.6z M44.4,26.8
+	c8,0,16,0,23.9,0c0.5-2.6,0.8-3.8,1.3-6.4c-7.8,0-15.6,0-23.4,0C45.5,23,45.1,24.2,44.4,26.8z M101.6,14.8c0.5,1.1,0.7,2.2,0.6,3.4
+	c0,0.5-0.1,0.7-0.1,1.2c-0.1,1.2-0.6,2.4-1.3,3.4c-0.7,1-1.7,1.9-2.8,2.7c-1.1,0.7-2.5,1.3-3.9,1.7c-1.5,0.4-3,0.6-4.6,0.6
+	c-3.6,0-5.5,0-9.1,0c-0.8,4.6-1.1,6.9-1.9,11.4c-3.8,0-5.6,0-9.4,0c1.9-9.9,3.9-19.7,5.8-29.6c5.7,0,11.4,0,17.1,0
+	c1.5,0,2.9,0.2,4.2,0.6c1.3,0.4,2.4,1,3.3,1.7C100.4,12.8,101.1,13.7,101.6,14.8z M81.5,21.1c3.1,0,4.7,0,7.8,0
+	c1.8,0,2.7-0.4,3.1-0.7c0.6-0.4,0.8-0.9,0.9-1.6c0.1-0.7-0.1-1.2-0.6-1.6c-0.5-0.5-1.5-0.7-2.8-0.7c-3.1,0-4.6,0-7.6,0
+	C81.9,18.4,81.8,19.3,81.5,21.1z M132.2,15.1c0.7,1.1,1,2.4,1.1,3.7c0,4.6,0.1,6.9,0.1,11.6c0,1.3-0.3,2.5-1.1,3.6
+	c-0.7,1.1-1.6,2-2.8,2.8c-1.2,0.8-2.6,1.4-4.1,1.9c-1.6,0.4-3.2,0.7-5,0.7c-1.9,0-2.8,0-4.7,0c-1.8,0-3.4-0.2-4.9-0.7
+	c-1.5-0.4-2.9-1.1-4-1.9c-1.1-0.8-2-1.8-2.6-2.8c-0.6-1.1-0.9-2.4-0.8-3.6c0.4-4.6,0.6-6.9,1-11.6c0.1-1.3,0.6-2.5,1.3-3.7
+	c0.7-1.1,1.7-2.1,2.9-2.9c1.1-0.8,2.4-1.4,3.9-1.9c1.4-0.4,3-0.7,4.6-0.7c1.7,0,2.6,0,4.3,0c1.6,0,3.1,0.2,4.5,0.7
+	c1.4,0.4,2.7,1.1,3.7,1.9C130.7,13,131.6,14,132.2,15.1z M112.6,30c0,0.7,0.2,1.2,0.8,1.7c0.6,0.5,1.5,0.8,2.6,0.8
+	c1.8,0,2.7,0,4.5,0c1.1,0,2-0.3,2.7-0.8c0.6-0.5,0.9-1,0.9-1.7c0.1-4.4,0.1-6.6,0.2-11c0-0.7-0.2-1.2-0.8-1.7
+	c-0.6-0.5-1.4-0.8-2.5-0.8c-1.7,0-2.6,0-4.3,0c-1.1,0-1.9,0.3-2.6,0.8c-0.6,0.5-0.9,1-0.9,1.7C113,23.4,112.9,25.6,112.6,30z
+	 M163.6,14.8c0.8,1.1,1.2,2.2,1.4,3.4c0.1,0.5,0.1,0.7,0.1,1.2c0.1,1.2,0,2.4-0.6,3.4c-0.5,1-1.3,1.9-2.3,2.7
+	c-1,0.7-2.2,1.3-3.6,1.7c-1.4,0.4-2.9,0.6-4.5,0.6c-3.6,0-5.5,0-9.1,0c0.2,4.6,0.3,6.9,0.6,11.4c-3.8,0-5.6,0-9.4,0
+	c-0.2-9.9-0.4-19.7-0.6-29.6c5.7,0,11.4,0,17.1,0c1.5,0,3,0.2,4.3,0.6c1.4,0.4,2.6,1,3.7,1.7C161.9,12.8,162.9,13.7,163.6,14.8z
+	 M144.8,21.1c3.1,0,4.7,0,7.8,0c1.8,0,2.6-0.4,3-0.7c0.5-0.4,0.7-0.9,0.6-1.6c-0.1-0.7-0.3-1.2-0.9-1.6c-0.6-0.5-1.6-0.7-3-0.7
+	c-3.1,0-4.6,0-7.6,0C144.7,18.4,144.7,19.3,144.8,21.1z M201.2,10.4c-0.2,3.3-0.4,6.6-0.6,10c-0.2,2.5-0.4,5.1-0.6,7.6
+	c-3.3-6-6.6-12.1-9.7-18.2c-3.8,0-5.7,0-9.5,0c1.8,9.9,3.5,19.7,5.3,29.6c3.3,0,4.9,0,8.1,0c-1.1-5.3-1.6-8-2.7-13.4
+	c2.3,4.5,4.6,9,7,13.4c3.3,0,4.9,0,8.2,0c0-0.3,0-0.4,0-0.7c0.2-2.9,0.4-5.9,0.7-8.9c0.1-1.3,0.2-2.6,0.3-3.9
+	c1.2,4.5,2.3,9,3.5,13.6c3.2,0,4.9,0,8.1,0c-2.8-9.9-5.6-19.7-8.4-29.6c-3.8,0-5.7,0-9.5,0C201.2,10,201.2,10.2,201.2,10.4z
+	 M232.3,9.7c0,0.3,0,0.4,0,0.7c0.1,3.1,0.2,6.1,0.2,9.1c0,2.2,0,4.5,0,6.8c-3.9-5.5-7.7-11-11.4-16.6c-3.5,0-5.3,0-8.8,0
+	c6.5,10,13.1,19.9,20,29.6c3.8,0,5.7,0,9.4,0c0.1-9.9-0.1-19.7-0.7-29.6C237.5,9.7,235.8,9.7,232.3,9.7z" class="st0"></path></svg></div></div> <div class="line"></div></div> <div class="frame-body-daylyhot100"><div class="main-title-wrap"><img src="png/dairyHot100.png"></div> <div class="date">
+		2020-11-25 수
+	</div> <div class="new-video-wrap">
+		new video
+	</div> <div class="video-list"><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1443
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Life Goes On</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			8,184,901
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/-5q5mZbe3V8.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1447
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Breath (넌 날 숨 쉬게 해)</div> <div class="artist">GOT7 (갓세븐)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			5,039,818
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/g5idjxf4jHI.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4527
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Dynamite</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			3,109,385
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/gdZLi9oWNZg.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1431
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Black Mamba</div> <div class="artist">에스파 (aespa)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,882,538
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/ZeerrnuLi5E.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1426
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Ready Or Not</div> <div class="artist">모모랜드 (MOMOLAND)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,780,573
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/MsNH0qBoJQs.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1344
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">I CAN’T STOP ME</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,763,505
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/CM4CkVFmTds.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1577
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">How You Like That</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,681,453
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/ioNng23DkIM.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1575
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Lovesick Girls</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,558,039
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/dyRsYk0LyA8.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1576
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Ice Cream (with Selena Gomez)</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,324,762
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/vRXZj0DzXIA.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			724
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">작은 것들을 위한 시 (Boy With Luv) feat. Halsey</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,180,249
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/XsX3ATc3FbA.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1579
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">뚜두뚜두 (DDU-DU DDU-DU)</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,168,886
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/IHNzOHi8sJs.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1578
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Kill This Love</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,121,326
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/2S24-y0Ij3Y.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			484
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">강남스타일</div> <div class="artist">싸이 (PSY)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			1,052,399
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/9bZkp7q19f0.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5415
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">붐바야</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			885,951
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/bwmSjveL3Lc.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3319
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">MIC Drop (Steve Aoki Remix) (Feat. Desiigner)</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			754,994
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/kTlv5_Bs8aw.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4528
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">DNA</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			730,934
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/MBdVXkSdhwU.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4529
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">IDOL</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			705,774
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/pBuZEGYXA6E.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1433
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Star (목소리 English Ver.)</div> <div class="artist">이달의 소녀</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			654,618
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/zW-AIXAnLcE.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3320
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">FAKE LOVE</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			652,705
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/7C2z4GqqS5E.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1847
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Back Door</div> <div class="artist">Stray Kids (스트레이 키즈)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			606,678
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/X-uJtV8ScYk.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1580
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">마지막처럼</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			603,250
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/Amq-qlqbjYA.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2382
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">SOLO</div> <div class="artist">제니 (JENNIE)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			557,318
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/b73BI9eUkjM.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5186
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Black Swan</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			547,601
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/0lapF4DQPKQ.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1258
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">5시 53분의 하늘에서 발견한 너와 나</div> <div class="artist">투모로우바이투게더</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			534,328
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/Vd9QkWsd5p4.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1429
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">과거 현재 미래 (Then, Now and Forever)</div> <div class="artist">CNBLUE (씨엔블루)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			526,792
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/236ddk-0sOI.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1848
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">神메뉴</div> <div class="artist">Stray Kids (스트레이 키즈)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			501,038
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/TQTlCHxyuu8.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3322
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">피 땀 눈물</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			471,437
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/hmE9f-TEutc.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5272
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">WANNABE</div> <div class="artist">ITZY (있지)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			467,749
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/fE2h3lGlOsk.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1581
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">휘파람</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			447,512
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/dISNgvVpWlo.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4853
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Psycho</div> <div class="artist">Red Velvet (레드벨벳)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			445,032
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/uR8Mrt1IpXg.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4768
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Your Story (Feat. Dok2)</div> <div class="artist">김현중</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			423,295
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/2IUgtr4xxfU.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2538
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Love Shot</div> <div class="artist">EXO</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			406,587
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/pSudEWBAYRE.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1582
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">불장난</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			405,248
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/9pdj4iJD08s.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1365
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">AYA</div> <div class="artist">마마무(Mamamoo)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			392,873
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/UoI9riNffEU.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3091
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Feel Special</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			369,636
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/3ymwOvzhwHs.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3323
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">봄날</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			353,915
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/xEeFrLSkMm8.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2637
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">HIP</div> <div class="artist">마마무(Mamamoo)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			352,156
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/KhTeiaCezwM.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3037
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">마리아 (Maria)</div> <div class="artist">화사 (Hwa Sa)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			344,248
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/tDukIfFzX18.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1377
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">음 (MMM)</div> <div class="artist">TREASURE (트레저)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			327,211
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/RjbNMogQw8s.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1976
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">사랑을 했다 (LOVE SCENARIO)</div> <div class="artist">iKON</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			297,054
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/vecSVX1QYbQ.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3090
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">MORE & MORE</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			293,429
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/mH0_XpSHkZo.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1384
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">MAGO</div> <div class="artist">여자친구 (GFRIEND)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			291,628
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/LmBYPXGqtss.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2216
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">FANCY</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			287,713
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/kOHB85vDuow.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5187
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Save ME</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			284,405
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/GZjt_sA2eso.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3321
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">ON</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			278,233
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/mPVDGOVjRQ0.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5160
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">What is Love?</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			272,635
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/i0p1bmr0EmE.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4167
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">눈누난나 (NUNU NANA)</div> <div class="artist">제시 (Jessi)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			249,333
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/tJQaUW36pMw.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4295
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Stay With Me</div> <div class="artist">찬열 (CHANYEOL), 펀치 (Punch)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			249,303
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/pcKR0LPwoYs.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5694
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">딩가딩가 (Dingga)</div> <div class="artist">마마무(Mamamoo)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			248,983
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/dfl9KIX1WpU.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3089
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">사랑해 (I LOVE YOU)</div> <div class="artist">TREASURE (트레저)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			236,621
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/_hFarg-Obuc.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2563
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">니가 부르는 나의 이름</div> <div class="artist">GOT7 (갓세븐)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			232,987
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/xQI9oZEY-B0.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5335
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">NOT BY THE MOON</div> <div class="artist">GOT7 (갓세븐)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			231,038
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/ladClnnJhqg.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5273
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Not Shy</div> <div class="artist">ITZY (있지)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			229,698
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/wTowEKjDGkU.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2035
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">DUN DUN</div> <div class="artist">EVERGLOW (에버글로우)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			214,155
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/NoYKBAajoyo.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2876
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">GENTLEMAN</div> <div class="artist">싸이 (PSY)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			213,071
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/ASO_zypdnsQ.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			507
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">에잇(Prod.&Feat. SUGA of BTS)</div> <div class="artist">아이유</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			210,398
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/TgOu00Mf3kI.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2265
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Make It Right (feat. Lauv)</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			205,028
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/eXBu09fwe3I.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3525
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">영웅 (英雄; Kick It)</div> <div class="artist">NCT 127</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			204,560
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/2OvyA2__Eas.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3325
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Not Today</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			201,129
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/9DwzBICPhdM.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2748
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">STAY</div> <div class="artist">BLACKPINK</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			197,303
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/FzVR_fymZw4.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1641
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">뱅뱅뱅 (BANG BANG BANG)</div> <div class="artist">BIGBANG</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			195,962
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/2ips2mM7Zqw.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1904
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">DADDY (Feat. CL of 2NE1)</div> <div class="artist">싸이 (PSY)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			195,473
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/FrG4TEcSuRg.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1366
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Love Killa</div> <div class="artist">몬스타엑스</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			195,209
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/-ToHbHcolfA.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3324
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">쩔어</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			192,778
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/BVwAVbKYYeM.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1411
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">날씨를 잃어버렸어</div> <div class="artist">투모로우바이투게더</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			190,447
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/kwy0nR1_SBQ.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			948
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">We are Bulletproof : the Eternal</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			185,138
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/7UWBYJjuIL0.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2034
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">LA DI DA</div> <div class="artist">EVERGLOW (에버글로우)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			182,827
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/jeI992mvlEY.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1406
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">이데아 (IDEA:理想)</div> <div class="artist">태민 (TAEMIN)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			180,408
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/KUvOQlkLNhE.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5334
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">딱 좋아 (Just right)</div> <div class="artist">GOT7 (갓세븐)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			179,539
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/vrdk3IGcau8.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5058
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">뿜뿜</div> <div class="artist">모모랜드 (MOMOLAND)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			178,812
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/JQGRg8XBnB4.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4531
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Say Yes</div> <div class="artist">로꼬, 펀치 (Punch)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			176,076
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/6GC8JF2FOgA.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5274
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">달라달라</div> <div class="artist">ITZY (있지)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			172,619
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/pNfTK39k55U.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5161
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">LIKEY</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			168,852
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/V2hlQkVJZhE.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3092
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">YES or YES</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			167,349
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/mAKsZ26SabQ.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2309
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">BOOM</div> <div class="artist">NCT DREAM</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			166,590
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/X-iJZ0gfKPo.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5526
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">ICY</div> <div class="artist">ITZY (있지)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			159,166
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/zndvqTc4P9I.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3327
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">No More Dream</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			156,368
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/rBG5L7UsUxA.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1957
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Blueming</div> <div class="artist">아이유</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			156,237
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/D1PvIWdJ8xo.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5687
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">HOME;RUN</div> <div class="artist">세븐틴</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			155,295
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/UB4FzllQCyc.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5497
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">TT</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			154,826
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/ePpPVE-GGJw.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1984
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Give Love</div> <div class="artist">악동뮤지션 </div></div> <div class="number-wrap"><div class="increasedViewCount">
+			150,934
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/x2XX3cNW4K0.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2266
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">상남자 (Boy In Luv)</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			150,390
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/m8MfJg68oCs.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2909
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">삐삐</div> <div class="artist">아이유</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			149,434
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/nM0xDI5R50E.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2215
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">BOY</div> <div class="artist">TREASURE (트레저)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			146,245
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/JSAfPh1A25E.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3417
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">이 사랑</div> <div class="artist">다비치</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			145,198
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/XyzaMpAVm3s.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2539
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Monster</div> <div class="artist">EXO</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			140,932
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/KSH-FVVtTf0.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3326
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Outro : Ego</div> <div class="artist">방탄소년단</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			139,913
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/LmApDbvNCXg.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5162
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Heart Shaker</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			139,116
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/rRzxEiBLQCA.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5164
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">CHEER UP</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			138,593
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/c7rCyll5AeY.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			4854
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Bad Boy</div> <div class="artist">Red Velvet (레드벨벳)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			136,242
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/J_CFBjAyPWE.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			3093
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Dance The Night Away</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			133,809
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/Fm5iP0S1z9w.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1850
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">MIROH</div> <div class="artist">Stray Kids (스트레이 키즈)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			133,600
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/Dab4EENTW5I.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5683
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">딩가딩가 (Dingga)</div> <div class="artist">마마무(Mamamoo)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			132,059
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/LzmdGtzby2s.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			2540
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Obsession</div> <div class="artist">EXO</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			128,906
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/uxmP4b2a0uY.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1428
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">BUMP BUMP</div> <div class="artist">WOODZ (조승연)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			128,352
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/h1ee4sPdaLI.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1721
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Left & Right</div> <div class="artist">세븐틴</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			123,397
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/HdZdxocqzq4.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			351
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">울고 싶지 않아</div> <div class="artist">세븐틴</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			122,955
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/zEkg4GBQumc.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1404
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">HERO</div> <div class="artist">임영웅</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			122,149
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/4jXLHKMRA-E.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			1372
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">Got That Boom</div> <div class="artist">SECRET NUMBER (시크릿넘버)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			117,432
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/ljdwsoYTq7I.jpg"></div></div> <!----></div><div class="video-item"><div class="wrap-video-item"><div class="rank-wrap"><div class="rank">
+			5163
+		</div> <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="svg"><path d="M52.21.92a3.126 3.126 0 00-4.42 0L19.67 29.04l4.42 4.42 22.79-22.79V100h6.25V10.67l22.79 22.79 4.42-4.42L52.21.92z"></path></svg></div></div> <div class="title-wrap"><div class="song">OOH-AHH하게</div> <div class="artist">TWICE (트와이스)</div></div> <div class="number-wrap"><div class="increasedViewCount">
+			116,784
+		</div></div> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="button-item"><path d="M9.09 0v100l81.82-50L9.09 0zm4.21 7.5L82.84 50 13.3 92.5v-85z"></path></svg> <div class="img-wrap"><img src="albumImg/0rtV5esQT6I.jpg"></div></div> <!----></div></div></div> <div class="frame-footer"><ul class="section-list"><li class="section-item">
+			1
+		</li><li class="section-item">
+			2
+		</li><li class="section-item">
+			3
+		</li><li class="section-item">
+			4
+		</li><li class="section-item">
+			5
+		</li></ul></div></div></div></div></div><script>window.__NUXT__={layout:"default",data:[{}],fetch:[],error:null,serverRendered:!0,routePath:"/",config:{}}</script><script src="https://chemicreative.github.io/kmvchart/e49a771.js" defer></script><script src="https://chemicreative.github.io/kmvchart/5a0331a.js" defer></script><script src="https://chemicreative.github.io/kmvchart/7c2fac0.js" defer></script><script src="https://chemicreative.github.io/kmvchart/0751675.js" defer></script>
+  </body>
+</html>
